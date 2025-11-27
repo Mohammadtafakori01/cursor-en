@@ -1,1 +1,31 @@
+cursor-en documentation scratchpad
+=================================
 
+Use this file for quick jot notes before promoting them into a dedicated guide. Keep entries short and link to stable documentation once drafted.
+
+Working agreements
+------------------
+- Treat `main` as the source of truth; open pull requests for every change.
+- Prefer Markdown in `docs/` for anything longer than a short reminder.
+- Note unanswered questions here so they are easy to triage later.
+
+Documentation backlog
+---------------------
+1. **Workflow tour:** A short walkthrough of how to run through a typical Cursor task.
+2. **Templates:** Copy-ready sections for changelogs, release notes, and testing plans.
+3. **Decision log:** Record why certain conventions (naming, branching) were chosen.
+
+Review checklist
+----------------
+- Does the new text explain *why* as well as *what*?
+- Are commands copy/paste ready and verified recently?
+- Did we include follow-up steps or testing expectations where relevant?
+
+Glossary
+--------
+- **Cursor task:** Any guided workflow where instructions are carried out inside Cursor.
+- **Docs-first:** A mindset where documentation is updated before or alongside code changes.
+
+Next up
+-------
+Capture concrete processes (e.g., onboarding a collaborator) in `docs/` soon so this scratchpad can stay lean.
